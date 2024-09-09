@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page1, .page2, .page3, .page4, .page5 {
+    height: 100vh;
+    width: calc(100% - 250px); /* Subtract the width of the .nav from the total width */
+    margin-left: 250px; /* Push content to the right of the sidebar */
+}
+
+.page1 {
+    background-color: grey;
+    background-image: url("image1.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    height: 100vh;
+    width: 250px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.circle {
+    height: 200px;
+    width: 200px;
+    border: 9px solid grey;
+    border-radius: 50%;
+    margin: 30px auto 0 auto;
+    background-image: url("photo.jpg");
+    background-size: cover;
+}
+
+.circle p {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 220px; /* Adjusted to align with the bottom of the circle */
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.welcome {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.i {
+    color: white;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#btn {
+    color: red;
+    border: 2px solid red;
+    height: 50px;
+    width: 120px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius : 10px;
+}
+
+.page2 {
+    background-color: #424242;
+    height : 100vh;
+    width : 100%;
+}
+
+.about {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left : 420px;
+    
+}
+.hi{
+    color : white;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 400px;;
+}
+.intro{
+    height : 500px;
+    width : 500px;
+    border : 4px solid black;
+    color : grey;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top : 10px;
+    margin-left : 400px;
+    border-radius : 10px;
+}
+.cv{
+    width : 100px;
+    height : 30px;
+    border : 2px solid red;
+    color : white;
+    background-color: red;
+    border-radius : 10px;
+    margin-top : 15px;
+    margin-left : 600px;
+}
+.page3{
+    height : 100vh;
+    width : 100%;
+    background-color: grey;
+    padding-top : 50px;
+}
+.skills{
+    color : white;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-top : 10px;
+    margin-left : 500px;
+}
+.html{
+    height : 200px;
+    width : 200px;
+    background-image: url("htmll.webp");
+    background-size: cover;
+    margin-top : 40px;
+    margin-left : 130px;
+}
+.css{
+    height : 200px;
+    width : 200px;
+    background-image: url("csss.png");
+    background-size: cover;
+    margin-left  : 130px;
+    margin-top : 40px;
+
+}
+.javascript{
+    height : 200px;
+    width : 200px;
+    background-image: url("js.jpg");
+    background-size: cover;
+    margin-left : 130px;
+    margin-top : 40px;
+    
+}
+.display{
+    display : flex;
+    
+}
+.cpp{
+    height : 200px;
+    width : 200px;
+    background-image: url("cpp.jpeg");
+    background-size: cover;
+    margin-left : 130px;
+    margin-top : 40px;
+}
+.python{
+    height : 200px;
+    width : 200px;
+    background-image: url("py.jpeg");
+    background-size: cover;
+    margin-left : 130px;
+    margin-top : 40px;
+}
+.display2{
+    display: flex;
+}
+.page4{
+    height : 100vh;
+    width : 100%;
+    background-color: #424242;
+    padding-top : 50px;
+}
+.contact{
+    color : white;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-top : 10px;
+    margin-left : 480px;
+}
+.address{
+    color : white;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top : 20px;
+    margin-left : 60px;
+}
+.haryana{
+    color : white;
+    margin-left: 60px;
+    margin-top: 20PX;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.phn{
+    height : 55px;
+    width : 55px;
+    background-image: url("phone.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    margin-top : 20px;
+    margin-left : 60px;
+}
+.phone{
+    color : white;
+    font-size: 25px;
+    margin-top : 25px;
+    margin-left : 20px;
+}
+.first{
+    display : flex;
+
+}
+.gmail{
+    height : 55px;
+    width : 55px;
+    background-image: url("gmail.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    margin-top : 20px;
+    margin-left : 60px;
+}
+.mail{
+    color : white;
+    font-size: 25px;
+    margin-top : 25px;
+    margin-left : 20px;
+}
+.second{
+    display : flex;
+}
+#feed{
+    height : 200px;
+    width : 600px;
+    background-color: black;
+    margin-top : 20px;
+    margin-left : 60px;
+    color : white;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top : 5px;
+
+}
+#btn2{
+    width : 100px;
+    height : 30px;
+    background-color : red;
+    color : white;
+    margin-top : 20px;
+    margin-left : 300px;
+    border-radius : 10px;
+}
